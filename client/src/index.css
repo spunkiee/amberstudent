@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-image {
+  width: 100%;
+  height: 90vh;
+  background: url("./assets/blonde-1867768.jpg") no-repeat center center fixed;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-overlay {
+  width: 100%;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .heading-container {
+  width: 100%;
+} */
+.heading-title {
+  line-height: 60px;
+  font-size: 3.5em;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.heading-desc {
+  line-height: 32px;
+  font-size: 1.5em;
+  color: #f6f8fa;
+  display: flex;
+  justify-content: center;
+}
+.input-container {
+  margin-top: 30px;
+}
+.input-field,
+.submit-button {
+  display: inline-block;
+}
+input {
+  width: 400px;
+  padding: 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px 0 0 3px;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+button {
+  border-radius: 0 2px 2px 0;
+  letter-spacing: 1px;
+  margin: 0;
+  height: 60px;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #e8415d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.suggestion-container {
+  position: fixed;
+  width: 400px;
+  background-color: #fff;
+  font-size: 0.9em;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px 0 0 3px;
+}
+.result-container {
+  position: fixed;
+  width: 440px;
+  background-color: #fff;
+  font-size: 0.9em;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px 0 0 3px;
+}
+.location-image {
+  display: inline-block;
+}
+.result-data {
+  display: inline-block;
+}
+.location-image img {
+  width: 15px;
+  height: 20px;
+  padding: 0px 15px 0 15px;
+  margin-left: 10px;
+}
+.result {
+  height: 55px;
+  border-bottom: 1px solid #a4a19c;
+  cursor: pointer;
+}
+.result:hover {
+  background-color: #f0f0f0;
+}
+.result-data {
+  margin: 10px 0;
+}
+.result-heading {
+  font-weight: 700;
+  color: #e8415d;
+}
