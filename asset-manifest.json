@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/amberstudent/static/css/main.0cc65d4f.chunk.css",
+    "main.js": "/amberstudent/static/js/main.214bc6db.chunk.js",
+    "main.js.map": "/amberstudent/static/js/main.214bc6db.chunk.js.map",
+    "runtime-main.js": "/amberstudent/static/js/runtime-main.5174e2bc.js",
+    "runtime-main.js.map": "/amberstudent/static/js/runtime-main.5174e2bc.js.map",
+    "static/js/2.42dd3555.chunk.js": "/amberstudent/static/js/2.42dd3555.chunk.js",
+    "static/js/2.42dd3555.chunk.js.map": "/amberstudent/static/js/2.42dd3555.chunk.js.map",
+    "index.html": "/amberstudent/index.html",
+    "precache-manifest.a1544ad25ab0c7ed7d6a04f20590cbe5.js": "/amberstudent/precache-manifest.a1544ad25ab0c7ed7d6a04f20590cbe5.js",
+    "service-worker.js": "/amberstudent/service-worker.js",
+    "static/css/main.0cc65d4f.chunk.css.map": "/amberstudent/static/css/main.0cc65d4f.chunk.css.map",
+    "static/js/2.42dd3555.chunk.js.LICENSE.txt": "/amberstudent/static/js/2.42dd3555.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/amberstudent/static/media/blonde-1867768.da25b2a3.jpg",
+    "static/media/location.png": "/amberstudent/static/media/location.4ab92a92.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5174e2bc.js",
+    "static/js/2.42dd3555.chunk.js",
+    "static/css/main.0cc65d4f.chunk.css",
+    "static/js/main.214bc6db.chunk.js"
+  ]
+}
